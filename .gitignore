@@ -1,0 +1,33 @@
+.venv/
+__pycache__/
+
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Local settings
+local_settings.py
+
+# Database files
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+
+# Log files
+*.log
+
+# Static files (if you're using a CDN)
+static/
+
+# Media files (if you're using a CDN)
+media/
+
+# Django migration files (if you want to avoid conflicts)
+*/migrations/*.pyc
+*/migrations/__pycache__/
+
+# IDE-specific files
+.idea/
+.vscode/
